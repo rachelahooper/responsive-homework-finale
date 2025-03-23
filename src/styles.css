@@ -1,29 +1,29 @@
-.oleo-script-swash-caps-regular {
-  font-family: "Oleo Script Swash Caps", system-ui;
+.vast-shadow-regular {
+  font-family: "Vast Shadow", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.oleo-script-swash-caps-bold {
-  font-family: "Oleo Script Swash Caps", system-ui;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.literata-<uniquifier {
+.literata {
   font-family: "Literata", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 h1 {
-  font-family: "Oleo Script Swash Caps", system-ui;
-  font-weight: 700;
+  font-family: "Vast Shadow", serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 64px;
 }
 h2 {
+  font-family: "Abril Fatface", serif;
   font-size: 24px;
 }
 
