@@ -39,13 +39,18 @@ header h2 {
   font-size: 72px;
   line-height: 2;
 }
-button {
-  color: black;
+header a {
+  font-weight: 500;
+  font-size: 14px;
   background: white;
+  border: black;
+  border-radius: 5px;
+  text-align: center;
   text-decoration: none;
-  padding: 24px 25px;
-  border-radius: 4px;
+  color: black;
+  padding: 20px 20px;
 }
+
 h1 {
   font-family: "Abril Fatface", serif;
   font-weight: 400;
@@ -63,4 +68,16 @@ p {
 
 footer {
   font-family: "Literata", serif;
+}
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 32px;
+  }
+  header h2 {
+    font-size: 42px;
+    line-height: 1;
+  }
 }
